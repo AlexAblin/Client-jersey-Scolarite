@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1457354789568_1" label="ReleveNotes-Spring-WS" name="ReleveNotes-Spring-WS">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReleveNotes-Spring-WS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReleveNotes-WS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReleveNotes" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1455554457049_0" label="Window Working Set" name="Aggregate for window 1455554457048"/>
+</workingSetManager>

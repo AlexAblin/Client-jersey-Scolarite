@@ -1,0 +1,12 @@
+
+<!ELEMENT boards (journal)+>
+<!ELEMENT journal (titleISI , titleDBLP , isbn , publisher , if5years , researcher+)>
+<!ELEMENT titleISI (#PCDATA)>
+<!ELEMENT titleDBLP (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT if5years (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT researcher (#PCDATA)>
+<!ATTLIST researcher sex (m | f | n) #REQUIRED>
+<!ATTLIST researcher country CDATA #REQUIRED>
+<!ATTLIST researcher level CDATA #REQUIRED>

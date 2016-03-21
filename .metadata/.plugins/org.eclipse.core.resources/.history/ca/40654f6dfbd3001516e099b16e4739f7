@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html"
+doctype-system="about:legacy-compat" encoding="UTF-8"
+indent="yes" />
+
+	<xsl:template match="/films">
+		 <html>
+               <head>
+               	<title>Result Exo1 Transfo Q4</title>
+               </head>
+               <body>
+               <h1>Liste des films</h1>
+               
+               <xsl:apply-templates select="film"/>
+               
+               </body>
+           </html>
+	</xsl:template>
+	
+	<xsl:template match="film">
+	<table style="width:60%;">
+		<tr>
+			<td colspan="2"><b>
+				<xsl:value-of select="titre"/></b>
+					<i>
+					<xsl:value-of select="@id_realisateur"/>
+					</i>
+			</td>
+		</tr>
+		<td>
+			<img src="{concat(titre,'.jpg')}"></img>
+		</td>
+					<tr>
+					<td><xsl:value-of select="resume/text"/></td>
+					</tr>
+
+		</table>
+		<hr></hr>
+	</xsl:template>
+	
+</xsl:stylesheet>

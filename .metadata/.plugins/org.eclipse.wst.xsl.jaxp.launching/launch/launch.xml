@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Pipeline source="" target="" useEmbedded="false">
+<Attributes/>
+<Transforms>
+<Transform uriResolver="" url="file:/Users/benjaminsaint-sever/Documents/Education/Master1/Semestre8/IAWS/IAWS_CM3/WebContent/Exo1_FilmProvider.xsl">
+<OutputProperties/>
+<Parameters/>
+</Transform>
+</Transforms>
+</Pipeline>
